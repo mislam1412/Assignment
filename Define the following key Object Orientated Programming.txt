@@ -1,0 +1,14 @@
+Define the following key Object Orientated Programming (OOP) 
+principles with examples:
+
+Encapsulation in Java is a mechanism of wrapping the data (variables) and code acting on the data (methods) together as a single unit. This is achieved by using private members and public methods.
+In the ‘Movie’ class, the variables are wrapped using a private method.
+
+Inheritance refers to a feature of Java programming that lets you create classes that are derived from other classes. A class that's based on another class inherits the other class.
+In my own programming I’ve incorporated inheritance by having the types of tickets (Standard, OAP, Student, and Child) as sub-classes derived from the Ticket class
+
+Polymorphism is the ability of an object to take on many forms. The most common use of polymorphism in OOP occurs when a parent class reference is used to refer to a child class object.
+In my own example, my parent class is ‘BuyTickets’ with the child class being ‘Tickets’, using polymorphic array to store each ticket in.
+
+Abstraction is used to hide certain details and only show the essential features of the object. In other words, it deals with the outside view of an object (interface).
+An example of this can be seen on my ‘Ticket’ class which hides all the sub classes.
